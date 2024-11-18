@@ -7,9 +7,7 @@ The **JS Issue Tracker** is a simple yet effective web application that allows u
 ## 🚀 **Live Demo**  
 
 
-https://github.com/user-attachments/assets/93b618ee-6ebd-45f5-bb70-c274b35ee505
-
-
+![JS-issue-tracker](https://github.com/user-attachments/assets/e62ab913-f960-439b-b9e3-3ed4fa6be9e8)
 
 
 ## 🎯 **Features**
