@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Genel Ayarlar */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #007bff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Jumbotron Ayarları */
+.jumbotron {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.jumbotron h3 {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Issues List Ayarları */
+#issuesList .well {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-left: 5px solid #007bff;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#issuesList h6 {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+#issuesList p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+#issuesList h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#issuesList a {
+  margin-right: 10px;
+}
+
+#issuesList .btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#issuesList .btn-warning:hover {
+  background-color: #e0a800;
+}
+
+#issuesList .btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#issuesList .btn-danger:hover {
+  background-color: #bd2130;
+}
+
+/* Footer Ayarları */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #6c757d;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer p {
+  margin: 0;
+}
